@@ -78,9 +78,10 @@ section {
     background-position: center;
     position: relative;
 }
+/* Hero Styles End */
 
 .hero-form {
-    border: solid 3px #024e76;
+    border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
     width: 500px;
@@ -120,15 +121,9 @@ section {
     padding: 10px 20px;
     border: none;
 }
-/* Hero Styles End */
 
 .intro {
     text-align: center;
-}
-
-/* remove this entire CSS rule */
-.intro h2 {
-    
 }
 
 .intro p {
@@ -136,7 +131,6 @@ section {
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
-    /* add this alongside your other declarations */
     margin: 0 auto;
 }
 
@@ -145,30 +139,8 @@ section {
     background: #fce138;
 }
 
-/* and this one too */
-.steps h2 {
-    
-}
-
-.section-title {
-    font-size: 55px;
-    color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    border-bottom: 3px solid;
-    display: inline-block;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #024e76;
-}
-
 .steps div {
-    margin-bottom: 80%;
+    margin-bottom: 80px;
 }
 
 .steps img {
@@ -189,4 +161,21 @@ section {
 
 .steps span {
     font-size: 38px;
+}
+
+.section-title {
+    font-size: 55px;
+    color: #024e76;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    display: inline-block;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
 }
