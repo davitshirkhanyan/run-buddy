@@ -1,4 +1,4 @@
-# Run Buddy
+# Run Buddy inc
 
 ## Porpose
 A website that offers fitness training services.
